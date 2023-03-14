@@ -28,7 +28,7 @@ function onFormSubmit(event) {
 
 function onInputData(event) {
     formData[event.target.name] = event.target.value;
-  const formDataJson = JSON.stringify(formData);
+    const formDataJson = JSON.stringify(formData);
   localStorage.setItem(KEY_FEEDBACK_FORM, formDataJson);
 }
 
