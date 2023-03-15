@@ -23,7 +23,7 @@ function createGalleryItemsMarkup(items) {
 const itemsMarkup = createGalleryItemsMarkup(galleryItems);
 galleryContainer.insertAdjacentHTML('beforeend', itemsMarkup);
 
-const modalLightbox = new SimpleLightbox('.gallery .gallery__item', {
+new SimpleLightbox('.gallery .gallery__item', {
     captionsData: 'alt',
     captionDelay: 250,
   });
