@@ -19,4 +19,30 @@ if (currentVideoTime) {
   player.setCurrentTime(currentVideoTime);
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////
+// const input = document.querySelector('#volume');
+// const span = document.querySelector('.output');
+
+// const VOLUME_KEY = 'volume-key';
+
+// // console.log(input.value)
+
+
+// input.addEventListener('input', onChangeVolume);
+
+// function onChangeVolume() {
+//   // console.log(input.value)
+//   span.textContent = input.value
+//   localStorage.setItem(VOLUME_KEY, input.value);
+// }
+//  const volume = localStorage.getItem(VOLUME_KEY)
+// console.log(volume)
+
+
+// if(volume) {
+//   span.textContent = volume
+//   input.value = volume
+// }else {
+//   span.textContent = input.value
+// }
 

@@ -47,6 +47,30 @@ if(formValue) {
     message.value = parseFormValue.message
   }
 }
+///////////////////////////////////////////////////////////////////////////////////
+
+// const input = document.querySelector('#startTime');
+// const span = document.querySelector('#value');
+
+// const KEY_TIME = "current-time";
+
+// input.addEventListener('input', onChangeTime);
+
+// function onChangeTime() {
+//   span.textContent = input.value;
+//   localStorage.setItem(KEY_TIME, input.value);
+// }
+
+// const time = localStorage.getItem(KEY_TIME);
+
+
+// if(time) {
+//   span.textContent = time;
+//   input.value = time;
+// }else {
+//   span.textContent = input.value;
+// }
+
 
 
 
